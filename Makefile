@@ -6,7 +6,5 @@
 #	$(CC) $(FILES) $(FLAGS) -o $(OUT)
 
 all:
-	gcc basic.c -std=c99 -o ./build/basic
-	g++ basic.cpp -o ./build/c++_basic
-
-	cp ./guess_number.bas ./build/guess_number.bas
+	gcc basic.c -std=c99 -o basic
+	g++ basic.cpp -o c++_basic
